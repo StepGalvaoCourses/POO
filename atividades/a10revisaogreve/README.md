@@ -26,6 +26,11 @@ Altere a classe pessoa da questão anterior, colocando nela o método **_exibir_
 System.out.println(fulano.exibir());
 ```
 
+**Gabarito:**
+- [Pessoa.java](./q2/Pessoa.java)
+- [Executar.java](./q2/Executar.java)
+
+
 ### Questão 3
 
 Na programação, toda a evolução ocorreu para o reaproveitamento de código. Iniciamente, criaram-se os métodos, depois as classes e objetos, por fim, os serviços. Sabendo disso, altere a classe **Pessoa** para que o código da sobrecarga de construtores seja reaproveitado. Para isso, você deve ter em mente que a palavra **this** funciona como um executor do construtor da classe em questão, como no exemplo abaixo, na qual o construtor da classe conta que recebe dois parâmetros é executado nos outros construtores, através da palavra **this**. Mais explicações sobre o **this** no encadeamento de construtores [aqui](https://www.dio.me/articles/encadeamento-de-construtores-em-java-uma-abordagem-didatica-com-this).
@@ -51,6 +56,11 @@ public class Conta {
 }
 ```
 
+**Gabarito:**
+- [Pessoa.java](./q3/Pessoa.java)
+- [Executar.java](./q3/Executar.java)
+
+
 ### Questão 4
 
 Crie uma classe **Lampada**, que simula uma lâmpada em um sistema. Nesta classe, os objetos do tipo **Lampada** deve conter um estado que indique a situação da lâmpada (acesa ou apagada). Por fim, crie uma classe **_Aplicativo_** que contenha um objeto da classe **Lampada**, coloque o seu estado e exiba o valor atual desse estado. Observe o diagrama de classe abaixo.
@@ -60,6 +70,10 @@ Crie uma classe **Lampada**, que simula uma lâmpada em um sistema. Nesta classe
 >| \- estado: boolean |
 >| \+ Lampada()<br>\+ acender(): void<br>\+ apargar(): void<br>\+ getEstado():boolean |
 
+**Gabarito:**
+- [Lampada.java](./q4/Lampada.java)
+- [Executar.java](./q4/Executar.java)
+
 ### Questão 5
 Crie uma classe **Aluno** que é formada por 2 atributos, um para armazenar o nome e o outro para armazenar a média. Além disso, o aluno deve ter um construtor que recebe os valores de seus atributos e um método que exibe a situação do aluno (aprovado, reprovado, prova final). Após isso, crie uma classe **_Aplicativo_** que contenha um objeto da classe Aluno, coloque o nome do aluno e sua média e exiba a situação do aluno. Observe o diagrama abaixo para construir a classe Aluno.
 
@@ -67,6 +81,10 @@ Crie uma classe **Aluno** que é formada por 2 atributos, um para armazenar o no
 >| --- |
 >| \- nome: String<br>\- media: double |
 >| \+ Aluno(nome,media)<br>\+ setMedia(media): void<br>\+ getMedia(): double<br>\+ getSituacao(): String<br> \+exibir():String |
+
+**Gabarito:**
+- [Aluno.java](./q5/Aluno.java)
+- [Executar.java](./q5/Executar.java)
 
 ### Questão 6
 <sub>(Obs: na próxima versão, fazer como uma Conta que a empresa deposita dinheiro e saca e o sistema controlar a emissão e consumo de carbono, como já ocorre)</sub>
@@ -92,6 +110,11 @@ Para simplificar, imagine que o taxa de consumo de carbono de cada empresa já �
 
 Agora simule uma transação de venda de carbono. Primeiro você deve criar os objetos simulando empresas consumidoras e emissoras. Depois, você deve fazer a Emissora produzir e a Consumidora consumir. Por fim, a empresa Emissora deve comprar carbono da empresa Consumidora.
 
+**Gabarito:**
+- [Consumidora.java](./q6/Consumidora.java)
+- [Emissora.java](./q6/Emissora.java)
+- [Executora.java](./q6/Executar.java)
+
 ### Questão 7
 
 Altere a questão anterior para que, no método de comprar crédito de carbono, o método receba a quantidade de crédito que será comprado e empresa consumidora que irá vender o crédito. O novo diagrama da classe **_Emissora_** pode ser visto abaixo.
@@ -100,3 +123,8 @@ Altere a questão anterior para que, no método de comprar crédito de carbono, 
 >| --- |
 >| \- taxaDeEmissao: double<br>\- lucroMensal: double<br>\- carbonosEmitidos: double<br>\- saldo: double |
 >| \+ Emissora(taxaDeEmissao, lucroMensal)<br>\+ produzir(): void<br>\+ comprarCarbono(quantidade, Consumidora): void |
+
+**Gabarito:**
+- [Consumidora.java](./q7/Consumidora.java)
+- [Emissora.java](./q7/Emissora.java)
+- [Executora.java](./q7/Executar.java)

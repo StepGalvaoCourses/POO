@@ -14,7 +14,9 @@ Exércício de Revisão Pós Greve.
 
 Crie uma classe **_Pessoa_**, que contenha **_nome_** e **_idade_** como atributos encapsulados e três construtores, o primeiro não recebe nenhum valor e cria uma pessoa com o nome “Fulano” e idade 0(zero), o segundo recebe o nome da pessoa e cria uma pessoa com idade 0(zero) e o último recebe o nome e idade da pessoa. Após isso, crie uma classe **_Aplicativo_** que contenha três objetos da classe Pessoa, cada um criado com um construtor diferente. Por fim, exiba o nome e a idade de cada pessoa criada.
 
-[Resposta](./q1/)
+**Gabarito:**
+- [Pessoa.java](./q1/Pessoa.java)
+- [Executar.java](./q1/Executar.java)
 
 ### Questão 2
 

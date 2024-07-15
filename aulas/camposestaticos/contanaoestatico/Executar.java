@@ -1,4 +1,4 @@
-package aulas.camposestaticos.contaestatico;
+package aulas.camposestaticos.contanaoestatico;
 
 public class Executar {
 
